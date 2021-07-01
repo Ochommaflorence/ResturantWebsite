@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size:'poppins' sans-serif;
+    font-family:'poppins' sans-serif;
 }
 p{
     font-weight: 600;
     color: #111;
 }
+
 body{
     min-height:1000px;
 }
@@ -104,8 +105,8 @@ header .navigation li {
 header .navigation li a {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
     /* font-family: 'poppins'; */
 }
 
@@ -115,6 +116,121 @@ header .navigation li a {
 header .navigation li a:hover{
     color: darkred;
 }
+#home{
+    margin-top: 6em;
+}
+
+#home .title {
+    position: relative;
+    font-family: "ubuntu", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+  }
+  #home .title::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    background:darkred;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  
+  #home .title::after {
+    content: "OUR STORY";
+    position: absolute;
+    padding: 5px;
+    bottom: -7px;
+    left: 50%;
+    font-size: 20px;
+    color: #111;
+    background: #fff;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  #home p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+#home h2{
+    font-family: 'Yellowtail', cursive;
+}
+
+#home .carousel-item{
+    height: 32rem;
+}
+#home a{
+    text-decoration: none;
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#home a:hover{
+    color: green;
+}
+#home2 .title {
+    position: relative;
+    font-family: "ubuntu", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+  }
+  #home2 .title::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    background:darkred;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  
+  #home2 .title::after {
+    content: "Features";
+    position: absolute;
+    padding: 5px;
+    bottom: -7px;
+    left: 50%;
+    font-size: 20px;
+    color: #111;
+    background: #fff;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+#icons{
+   height: 100px;
+   width: 100px;
+   /* margin-top: 3em; */
+}
+
+
+
+/* At media for home page */
 
 @media (max-width:991px) {
     header,
@@ -176,6 +292,14 @@ header .navigation li a:hover{
 .banner .content p{
     font-size: 16px;
     font-weight: bold;
+}
+/* #home2 h1{
+    margin-top:-10rem;
+    color: darkred;
+} */
+#home2 .title{
+    font-size: 30px;
+    font-weight: 500;
 }
     
 }
