@@ -9,7 +9,9 @@ p {
   font-weight: 600;
   color: #111;
 }
-
+a:hover{
+  text-decoration: none;
+}
 body {
   min-height: 1000px;
 }
@@ -236,7 +238,7 @@ header .navigation li a:hover {
 #icons {
   height: 100px;
   width: 100px;
-  /* margin-top: 3em; */
+  
 }
 /* --------------------Why people choose Us */
 
@@ -287,8 +289,91 @@ header .navigation li a:hover {
 
 /* ----------------Recipes Section ended */
 
+/* Home page ended */
 
 
+/*------------ About page  -----------*/
+
+/* -----------About page ended ----------- */
+
+
+/* -------------footer ---------- */
+footer {
+	margin-top: 30px;
+	height: 90vh;
+	width: 100%;
+	background: url("./images/image5.jpg");
+	background-position: center center;
+	background-size: cover;
+	
+}
+
+.footer-overlay {
+	height: 90vh;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+footer h2 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+
+footer ul a {
+	color: #fff;
+	font-size: 17px;
+	padding-left: 1.600rem;
+  
+}
+
+footer ul a:hover {
+	color: darkred;
+	
+}
+
+@media(max-width: 320px) {
+	footer ul a {
+		font-size: 13px;
+		
+	}
+}
+
+.footer-social a{
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: darkred;
+	font-size: 20px;
+	margin-left: 5px;
+	transition: .3s all ease;
+}
+
+.footer-social a:hover {
+	background: darkred;
+  color: #fff;
+}
+
+.footer-b {
+	margin-top: -6rem;
+}
+
+.footer-b a {
+	font-weight:bold;
+	text-decoration: underline !important;
+	color: darkred;
+	font-size: 17px;
+}
+.footer-b p{
+  color: #fff;
+}
+/* footer ended ------------------- */
 /* At media for All  pages */
 
 @media (max-width: 991px) {
