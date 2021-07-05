@@ -181,14 +181,12 @@ header .navigation li a:hover {
 }
 #home a {
   text-decoration: none;
-  color: darkred;
+  color: #fff;
   font-style: italic;
   font-weight: bold;
   text-transform: uppercase;
 }
-#home a:hover {
-  color: green;
-}
+
 #home2 {
   margin-bottom: 5rem;
 }
@@ -334,7 +332,7 @@ header .navigation li a:hover {
 
 /*------------ Gallery page  -----------*/
 .hero-section3 {
-	background: rgba(0, 0, 0, 0.6) url('./images/image2.jpg');
+	background: rgba(0, 0, 0, 0.6) url('./images/image3.jpg');
 	height: 80vh;
 	width: 100%;
 	background-position: center;
