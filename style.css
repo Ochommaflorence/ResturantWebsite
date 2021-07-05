@@ -13,6 +13,7 @@ p {
 body {
   min-height: 1000px;
 }
+/* --------------------Banner ----------------------- */
 .banner {
   position: relative;
   width: 100%;
@@ -60,6 +61,7 @@ body {
   letter-spacing: 6px;
   color: #fff;
 }
+/* -------------------Navbar --------------------- */
 header {
   position: fixed;
   top: 0;
@@ -115,6 +117,9 @@ header .navigation li a {
 header .navigation li a:hover {
   color: darkred;
 }
+/* ------------Navbar ended -------------------------- */
+
+/* -------------Discover our stoty ----------------- */
 #home {
   margin-top: 6em;
 }
@@ -185,6 +190,10 @@ header .navigation li a:hover {
 #home2 {
   margin-bottom: 5rem;
 }
+
+/* -------------Discover our stoty ended ----------------- */
+
+/* --------------------Why people choose Us */
 /* #home2 .title {
     position: relative;
     font-family: "ubuntu", sans-serif;
@@ -229,6 +238,10 @@ header .navigation li a:hover {
   width: 100px;
   /* margin-top: 3em; */
 }
+/* --------------------Why people choose Us */
+
+
+/* -------------Opening our Section --------------- */
 .BANNER2 {
   position: relative;
   width: 100%;
@@ -265,7 +278,18 @@ header .navigation li a:hover {
     font-size: 20px;
 }
 
-/* At media for home page */
+/* -------------opening section ended --------------- */
+
+/* ---------------Recipes Section --------------- */
+.card{
+  border: solid darkred;
+}
+
+/* ----------------Recipes Section ended */
+
+
+
+/* At media for All  pages */
 
 @media (max-width: 991px) {
   header,
@@ -334,5 +358,21 @@ header .navigation li a:hover {
   #home2 .title {
     font-size: 30px;
     font-weight: 500;
+  }
+
+  .Banner2-content{
+    left: 0;
+    text-align: center;
+
+  }
+  #Recipes h1{
+   font-size: 25px;
+  }
+
+  .card{
+    margin: 10px;
+    width: 96%;
+    margin-top:5px;
+ 
   }
 }
