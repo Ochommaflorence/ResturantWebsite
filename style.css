@@ -282,6 +282,8 @@ header .navigation li a:hover {
 
 /* -------------opening section ended --------------- */
 
+
+
 /* ---------------Recipes Section --------------- */
 .card{
   border: solid darkred;
@@ -293,9 +295,64 @@ header .navigation li a:hover {
 
 
 /*------------ About page  -----------*/
+.hero-section {
+	background: rgba(0, 0, 0, 0.6) url('./images/image3.jpg');
+	height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	position: relative;
+}
+
+.hero-section .content {
+	position: absolute;
+	z-index: 1000;
+	margin-top: 20em;
+	color: #fff;
+  top: -10%;
+  left: 40%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+
 
 /* -----------About page ended ----------- */
 
+/*------------ Contact page  -----------*/
+.hero-section2 {
+	background: rgba(0, 0, 0, 0.6) url('./images/image4.jpg');
+	height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	position: relative;
+}
+
+/*------------ Gallery page  -----------*/
+.hero-section3 {
+	background: rgba(0, 0, 0, 0.6) url('./images/image2.jpg');
+	height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	position: relative;
+}
+
+/*------------ menu page  -----------*/
+.hero-section4 {
+	background: rgba(0, 0, 0, 0.6) url('./images/image4.jpg');
+	height: 80vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	position: relative;
+}
 
 /* -------------footer ---------- */
 footer {
@@ -374,6 +431,11 @@ footer ul a:hover {
   color: #fff;
 }
 /* footer ended ------------------- */
+
+
+
+
+
 /* At media for All  pages */
 
 @media (max-width: 991px) {
