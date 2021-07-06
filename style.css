@@ -401,6 +401,8 @@ hr {
   object-fit: cover;
 }
 
+
+
 /*------------ Gallery page  -----------*/
 .hero-section3 {
   position: relative;
@@ -408,7 +410,7 @@ hr {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: rgba(0, 0, 0, 0.6) url(../images/image3.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0.6) url(../images/image9.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   object-fit: cover;
