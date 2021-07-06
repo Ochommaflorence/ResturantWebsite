@@ -400,7 +400,25 @@ hr {
   background-blend-mode: overlay;
   object-fit: cover;
 }
+.contact-social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  margin: 5px;
+  transition: 0.3s all ease;
+}
 
+.contact-social a:hover {
+  background: #000;
+  color:#fff;
+}
 
 
 /*------------ Gallery page  -----------*/
