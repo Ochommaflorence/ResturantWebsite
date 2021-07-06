@@ -9,7 +9,7 @@ p {
   font-weight: 600;
   color: #111;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
 body {
@@ -236,10 +236,8 @@ header .navigation li a:hover {
 #icons {
   height: 100px;
   width: 100px;
-  
 }
 /* --------------------Why people choose Us */
-
 
 /* -------------Opening our Section --------------- */
 .BANNER2 {
@@ -258,32 +256,30 @@ header .navigation li a:hover {
   color: #fff;
   left: 40%;
 }
-.Banner2-content h1{
-    text-transform: uppercase;
+.Banner2-content h1 {
+  text-transform: uppercase;
 }
-.Banner2-content h3{
-    font-size: 18px;
-    font-style: italic;
-    color: darkred;
+.Banner2-content h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: darkred;
 }
-.Banner2-content hr{
-    width: 40%;
-    align-items: center;
-    background-color: #fff;
+.Banner2-content hr {
+  width: 40%;
+  align-items: center;
+  background-color: #fff;
 }
-.Banner2-content span a{
-    color: darkred;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
+.Banner2-content span a {
+  color: darkred;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 /* -------------opening section ended --------------- */
 
-
-
 /* ---------------Recipes Section --------------- */
-.card{
+.card {
   border: solid darkred;
 }
 
@@ -291,23 +287,24 @@ header .navigation li a:hover {
 
 /* Home page ended */
 
-
 /*------------ About page  -----------*/
 .hero-section {
-	background: rgba(0, 0, 0, 0.6) url('./images/image3.jpg');
-	height: 80vh;
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	background-blend-mode: overlay;
-	position: relative;
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6) url(../images/image3.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  object-fit: cover;
 }
 
 .hero-section .content {
-	position: absolute;
-	z-index: 1000;
-	margin-top: 20em;
-	color: #fff;
+  position: absolute;
+  z-index: 1000;
+  margin-top: 20em;
+  color: #fff;
   top: -10%;
   left: 40%;
   text-transform: uppercase;
@@ -315,124 +312,189 @@ header .navigation li a:hover {
   font-family: "Rubik", sans-serif;
 }
 
+#about-carousel {
+  background-color: black;
+}
 
+.wrapper {
+ width: 1170px;
+  margin: 0 auto;
+}
+.wrapper h1 {
+  color: #fff;
+  padding-top: 20px;
+}
+.section-padding {
+  padding: 60px 0;
+}
+.chef-carousel {
+  margin: 5% auto 0;
+}
+.image-area {
+  width: 100px;
+  height: 100px;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 auto;
+}
+.image-area img {
+  width: 100%;
+}
+
+.single-testing {
+  background-color: #fff;
+  padding: 10%;
+  text-align: center;
+  border-radius: 100px 0 100px 0;
+  -webkit-border-radius: 100px 0 100px 0;
+  -moz-border-radius: 100px 0 100px 0;
+  -ms-border-radius: 100px 0 100px 0;
+  -o-border-radius: 100px 0 100px 0;
+}
+.img-text h2 {
+  text-transform: uppercase;
+  color: darkred;
+  font-size: 20px;
+}
+.img-text i {
+  color: darkred;
+}
+hr {
+  color: darkred;
+}
+
+.owl-dots {
+  text-align: center;
+}
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 50px 5px 0;
+}
+.owl-dot.active {
+  background-color: darkred !important;
+}
 
 /* -----------About page ended ----------- */
 
 /*------------ Contact page  -----------*/
 .hero-section2 {
-	background: rgba(0, 0, 0, 0.6) url('./images/image4.jpg');
-	height: 80vh;
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	background-blend-mode: overlay;
-	position: relative;
+  background: rgba(0, 0, 0, 0.6) url("./images/image4.jpg");
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: relative;
 }
 
 /*------------ Gallery page  -----------*/
 .hero-section3 {
-	background: rgba(0, 0, 0, 0.6) url('./images/image3.jpg');
-	height: 80vh;
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	background-blend-mode: overlay;
-	position: relative;
+  background: rgba(0, 0, 0, 0.6) url("./images/image3.jpg");
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: relative;
 }
 
 /*------------ menu page  -----------*/
 .hero-section4 {
-	background: rgba(0, 0, 0, 0.6) url('./images/image4.jpg');
-	height: 80vh;
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	background-blend-mode: overlay;
-	position: relative;
+  background: rgba(0, 0, 0, 0.6) url("./images/image4.jpg");
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: relative;
 }
 
 /* -------------footer ---------- */
 footer {
-	margin-top: 30px;
-	height: 90vh;
-	width: 100%;
-	background: url("./images/image5.jpg");
-	background-position: center center;
-	background-size: cover;
-	
+  margin-top: 30px;
+  height: 90vh;
+  width: 100%;
+  background: url("./images/image5.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 .footer-overlay {
-	height: 90vh;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.8);
+  height: 90vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 footer h2 {
-	color: #fff;
-	font-weight: 600;
-	font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
 }
 
-
 footer ul a {
-	color: #fff;
-	font-size: 17px;
-	padding-left: 1.600rem;
-  
+  color: #fff;
+  font-size: 17px;
+  padding-left: 1.6rem;
 }
 
 footer ul a:hover {
-	color: darkred;
-	
+  color: darkred;
 }
 
-@media(max-width: 320px) {
-	footer ul a {
-		font-size: 13px;
-		
-	}
+@media (max-width: 320px) {
+  footer ul a {
+    font-size: 13px;
+  }
 }
 
-.footer-social a{
-	display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background:#fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: darkred;
-	font-size: 20px;
-	margin-left: 5px;
-	transition: .3s all ease;
+.footer-social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkred;
+  font-size: 20px;
+  margin-left: 5px;
+  transition: 0.3s all ease;
 }
 
 .footer-social a:hover {
-	background: darkred;
+  background: darkred;
   color: #fff;
 }
 
 .footer-b {
-	margin-top: -6rem;
+  margin-top: -6rem;
 }
 
 .footer-b a {
-	font-weight:bold;
-	text-decoration: underline !important;
-	color: darkred;
-	font-size: 17px;
+  font-weight: bold;
+  text-decoration: underline !important;
+  color: darkred;
+  font-size: 17px;
 }
-.footer-b p{
+.footer-b p {
   color: #fff;
 }
 /* footer ended ------------------- */
-
-
-
-
 
 /* At media for All  pages */
 
@@ -505,19 +567,41 @@ footer ul a:hover {
     font-weight: 500;
   }
 
-  .Banner2-content{
+  .Banner2-content {
     left: 0;
     text-align: center;
-
   }
-  #Recipes h1{
-   font-size: 25px;
+  #Recipes h1 {
+    font-size: 25px;
   }
 
-  .card{
+  .card {
     margin: 10px;
     width: 96%;
-    margin-top:5px;
- 
+    margin-top: 5px;
   }
+  #about-carousel {
+    margin-top: 2em;
+  }
+ 
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 731px) {
+  .hero-section .content{
+    left:20%;
+    color: red;
+  }
+  
 }
