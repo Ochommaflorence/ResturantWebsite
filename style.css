@@ -400,6 +400,18 @@ hr {
   background-blend-mode: overlay;
   object-fit: cover;
 }
+
+.contact-info i{
+  color: darkred;
+  font-size: 30px;
+}
+
+.contact-info a{
+  color: #000;
+}
+.contact-info a:hover{
+  color: darkred;
+}
 .contact-social a {
   display: inline-block;
   width: 50px;
