@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +13,8 @@ p {
 a:hover {
   text-decoration: none;
 }
-h1{
-  font-family: 'Dancing Script', cursive;
+h1 {
+  font-family: "Dancing Script", cursive;
 }
 body {
   min-height: 1000px;
@@ -67,8 +67,6 @@ body {
   letter-spacing: 6px;
   color: #fff;
 }
-
-
 
 /* -------------------Navbar --------------------- */
 header {
@@ -285,12 +283,12 @@ header .navigation li a:hover {
 }
 
 .wrapper {
- width: 1170px;
+  width: 1170px;
   margin: 0 auto;
 }
 .wrapper h1 {
   color: #fff;
-  padding-top:1em;
+  padding-top: 1em;
 }
 .section-padding {
   padding: 60px 0;
@@ -354,7 +352,7 @@ hr {
   background-color: darkred !important;
 }
 
-#about-newsletter h1{
+#about-newsletter h1 {
   color: darkred;
 }
 /* -----------About page ended ----------- */
@@ -372,20 +370,19 @@ hr {
   object-fit: cover;
 }
 
-.contact-info i{
+.contact-info i {
   color: darkred;
   font-size: 30px;
 }
 
-.contact-info a{
+.contact-info a {
   color: #000;
-  font-size:16px;
-
+  font-size: 16px;
 }
-.contact-info a:hover{
+.contact-info a:hover {
   color: darkred;
 }
-.contact-info span{
+.contact-info span {
   font-size: 16px;
 }
 .contact-social a {
@@ -405,7 +402,7 @@ hr {
 
 .contact-social a:hover {
   background: #000;
-  color:#fff;
+  color: #fff;
 }
 
 .invalid {
@@ -421,7 +418,7 @@ hr {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .contact-description {
@@ -461,18 +458,17 @@ label {
 
 textarea {
   width: 100%;
-  border-radius: 5px ;
+  border-radius: 5px;
   border: 1px solid darkred;
   outline: none;
   padding: 10px;
   height: 200px;
   font-size: 18px;
-  -webkit-border-radius: 5px ;
-  -moz-border-radius: 5px ;
-  -ms-border-radius: 5px ;
-  -o-border-radius: 5px ;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
-
 
 /*------------ Gallery page  -----------*/
 .hero-section3 {
@@ -497,6 +493,58 @@ textarea {
   background: rgba(0, 0, 0, 0.6) url(../images/pic.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
+  object-fit: cover;
+}
+
+#filter-img {
+  padding: 20px;
+  width: 1280px;
+  margin: 10px auto;
+}
+#filter-img ul {
+  display: flex;
+  margin-bottom: 10px;
+}
+#filter-img ul li {
+  list-style: none;
+  background: darkred;
+  padding: 8px 20px;
+  color: #fff;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#filter-img ul li:hover {
+  letter-spacing: 6px;
+  transition: 0.5s;
+  background: #000;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#filter-img ul li.active {
+  background: black;
+  color: #fff;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product .itemBox{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.product .itemBox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -656,13 +704,10 @@ footer ul a:hover {
   #about-carousel {
     margin-top: 2em;
   }
-  .hero-section-content h1{
-  font-size: 19px;
-  font-weight: bold;
-  
+  .hero-section-content h1 {
+    font-size: 19px;
+    font-weight: bold;
   }
- 
- 
 }
 
 @media (max-width: 767px) {
@@ -678,11 +723,7 @@ footer ul a:hover {
 }
 
 @media (max-width: 731px) {
-  .hero-section .content{
-    left:20%;
-    
+  .hero-section .content {
+    left: 20%;
   }
-  
 }
-
-
