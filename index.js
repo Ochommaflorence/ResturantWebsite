@@ -51,3 +51,5 @@ form.addEventListener("submit", (e) => {
 });
 
 inputFields.forEach((input) => input.addEventListener("input", validateInputs));
+
+

@@ -50,7 +50,7 @@
 
       <section  id="filter-img">
         <ul>
-          <li class="list active" data-filter="All">All</li>
+          <li class="list active" data-filter="all">All</li>
           <li class="list" data-filter="breakfast">Breakfast</li>
           <li class="list" data-filter="lunch">Lunch</li>
           <li class="list" data-filter="dinner">Dinner</li>
@@ -123,7 +123,8 @@
         $('.itemBox').show('1000');
       }
       else{
-        $('itemBox').not()
+        $('itemBox').not('.'+value).hide('1000');
+        $('itemBox').filter('.'+value).show('1000');
       }
     })
   })
