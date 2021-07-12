@@ -518,6 +518,17 @@ textarea {
   margin: 5px;
   letter-spacing: 1px;
   cursor: pointer;
+  color: #fff;
+}
+#filter-img ul li:hover {
+  letter-spacing: 6px;
+  transition: 0.5s;
+  background: #000;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 #filter-img ul li.active{
   background: #000;
@@ -549,52 +560,7 @@ textarea {
   height: 100%;
   object-fit: cover;
 }
-/* #filter-img ul {
-  display: flex;
-  margin-bottom: 10px;
-}
-#filter-img ul li {
-  list-style: none;
-  background: darkred;
-  padding: 8px 20px;
-  color: #fff;
-  margin: 5px;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-#filter-img ul li:hover {
-  letter-spacing: 6px;
-  transition: 0.5s;
-  background: #000;
-  color: #fff;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
-#filter-img ul li.active {
-  background: black;
-  color: #fff;
-}
-.product {
-  display: flex;
-  flex-wrap: wrap;
-}
-.product .itemBox{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-}
 
-.product .itemBox img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 
 /* .........Reservation Page ------------------- */
 
