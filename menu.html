@@ -34,6 +34,7 @@
           <li><a href="about.html">About</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </header>
@@ -126,7 +127,7 @@ src="https://code.jquery.com/jquery-3.6.0.js"
 integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
 crossorigin="anonymous"></script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 $(document).ready(function(){
    $('.list').click(function(){
      const value = $(this).attr('data-filter');
@@ -138,11 +139,24 @@ $(document).ready(function(){
        $('.itemBox').filter('.'+value).show('1000');
      }
    })
-  //  add active class on selected items
+  add active class on selected items
   $('.list').click(function(){
     $(this).addClass('active').siblings().removeClass('active');
   })
  })
+</script> -->
+<!-- function for filtering images in manu page  -->
+<script>
+  let list = document.querySelectorAll('.list');
+  let itemBox = document.querySelectorAll('.itemBox');
+
+  for(let i = 0; i<list.length; i++){
+    list[i].addEventListener('click', function(){
+      for(let j = 0; j<list.length; j++){
+        
+      }
+    })
+  }
 </script>
 
 <script
@@ -151,6 +165,7 @@ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxV
 crossorigin="anonymous"
 ></script>
 
+<!-- function for navbar -->
 <script type="text/javascript">
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header");
