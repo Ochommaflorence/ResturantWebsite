@@ -59,26 +59,26 @@
           <li class="list" data-filter="coffee">Coffee</li>
         </ul>
         <div class="product">
-          <div class="itemBox breakfast"><img src="images/breakfast1.jpg" alt="filterPics"></div>
-          <div class="itemBox lunch"><img src="images/lunch1.jpg" alt="filterPics"></div>
-          <div class="itemBox dinner"><img src="images/dinner1 (1).jpg" alt="filterPics"></div>
-          <div class="itemBox snacks"><img src="images/snack1.jpg" alt="filterPics"></div>
-          <div class="itemBox coffee"><img src="images/coffee1.jpg" alt="filterPics"></div>
-          <div class="itemBox breakfast"><img src="images/breakfast2.jpg" alt="filterPics"></div>
-          <div class="itemBox lunch"><img src="images/lunch2.jpg" alt="filterPics"></div>
-          <div class="itemBox dinner"><img src="images/dinner1 (2).jpg" alt="filterPics"></div>
-          <div class="itemBox snacks"><img src="images/snack2.jpg" alt="filterPics"></div>
-          <div class="itemBox coffee"><img src="images/coffe2.jpg" alt="filterPics"></div>
-          <div class="itemBox breakfast"><img src="images/breakfast3.jpg" alt="filterPics"></div>
-          <div class="itemBox lunch"><img src="images/lunch3.jpg" alt="filterPics"></div>
-          <div class="itemBox dinner"><img src="images/dinner1 (3).jpg" alt="filterPics"></div>
-          <div class="itemBox snacks"><img src="images/snack3.jpg" alt="filterPics"></div>
-          <div class="itemBox coffee"><img src="images/coffee3.jpg" alt="filterPics"></div>
-          <div class="itemBox breakfast"><img src="images/breakfast4.jpg" alt="filterPics"></div>
-          <div class="itemBox lunch"><img src="images/lunch4.jpg" alt="filterPics"></div>
-          <div class="itemBox dinner"><img src="images/dinner1 (4).jpg" alt="filterPics"></div>
-          <div class="itemBox snacks"><img src="images/snack4.jpg" alt="filterPics"></div>
-          <div class="itemBox coffee"><img src="images/coffee.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="breakfast"><img src="images/breakfast1.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="lunch"><img src="images/lunch1.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="dinner"><img src="images/dinner1 (1).jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="snacks"><img src="images/snack1.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="coffee"><img src="images/coffee1.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="breakfast"><img src="images/breakfast2.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="lunch"><img src="images/lunch2.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="dinner"><img src="images/dinner1 (2).jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="snacks"><img src="images/snack2.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="coffee"><img src="images/coffe2.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="breakfast"><img src="images/breakfast3.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="lunch"><img src="images/lunch3.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="dinner"><img src="images/dinner1 (3).jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="snacks"><img src="images/snack3.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="coffee"><img src="images/coffee3.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="breakfast"><img src="images/breakfast4.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="lunch"><img src="images/lunch4.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="dinner"><img src="images/dinner1 (4).jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="snacks"><img src="images/snack4.jpg" alt="filterPics"></div>
+          <div class="itemBox" data-item="coffee"><img src="images/coffee.jpg" alt="filterPics"></div>
          
         </div>
       </section>
@@ -158,6 +158,17 @@ $(document).ready(function(){
       this.classList.add('active');
 
       let dataFilter = this.getAttribute('data-filter');
+
+      for(let k = 0; k<itemBox.length; k++){
+        itemBox[k].classList.remove('active');
+        itemBox[k].classList.add('hide');
+      
+
+        if(itemBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
+          itemBox[k].classList.remove('hide');
+          itemBox[k].classList.add('active');
+        }
+      }
     })
   }
 </script>
