@@ -482,6 +482,17 @@ textarea {
   background-blend-mode: overlay;
   object-fit: cover;
 }
+.item{
+  transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -ms-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+.item:hover{
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+}
 
 /*------------ menu page  -----------*/
 .hero-section4 {
