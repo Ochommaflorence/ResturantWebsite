@@ -425,7 +425,7 @@ p {
   margin-bottom: 40px;
 }
 
-input {
+input, select {
   padding: 10px;
   border-radius: 5px;
   width: 100%;
